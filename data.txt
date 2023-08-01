@@ -1,0 +1,7 @@
+	
+An ambigram is a calligraphic or typographic design with multiple interpretations as written words.
+Alternative meanings are often yielded when the design is transformed or the observer moves, 
+but they can also result from a shift in mental perspective. 
+This animation shows a half-turn ambigram of the word ambigram. 
+The word is written calligraphically with 180-degree rotational symmetry,
+such that it reads identically when viewed upside down.
