@@ -9,25 +9,25 @@ app.get('/', (req, res) => {
 const port = 3000;
 
 app.listen(port, () => {
-  console.log(`Server running on ${port}`)
+  console.log(`Server running on Port : ${port}`)
 })
 
 
-// TASK 02
+// TASK 02 ------------------------------------------------------------------------------
 
-let arr = [1,2,3,4,5,6,7,8,9]
+const arr = [1,2,3,4,5,6,7,8,9];
 
-function sum(arr){
-    let s = 0
-    for(let i=0; i<arr.length; i++){
-        s = s + arr[i]
-    }
-    return s
+function totalSum(arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum = sum + arr[i];
+  }
+  return sum;
 }
+const result = totalSum(arr);
+console.log('Total Sum of Arr:', result);
 
-console.log(sum(arr))
-
-// TASK 03 
+// TASK 03 --------------------------------------------------------------------------------
 
 fs.readFile('data.txt', 'utf8', (err, data) => {
   if (err) {
